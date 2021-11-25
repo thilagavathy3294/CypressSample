@@ -54,7 +54,7 @@ module.exports = (on, config) => {
 }
 4. Add the following Import in support/index.js
 import 'cypress-mochawesome-reporter/register'
-5.To generate report type 'npx run cypress'
+5.To generate report type 'npx run cypress' or to generate for a particular selected testscases type 'npx cypress run --browser chrome --spec cypress/integration/MyCypressAutomation/*.spec.js'
 6.Get the reports under 'report' folder.
 
 
